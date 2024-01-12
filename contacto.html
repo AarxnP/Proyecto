@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/contacto.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="img/Makeup Sale.png"
+            alt="Makeup Sale"
+            width="200px"
+            height="100px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"
+                >Inicio
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Cursos</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Presencial</a>
+                <a class="dropdown-item" href="#">Online</a>
+              </div>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <a href="https://wa.me/c/593994404028"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+            <a href="https://www.facebook.com/yulivalumakeup?mibextid=vk8aRt"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/yulivalumakeup?igsh=Z2diY3Z0dzBvZnpj"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <img src="img/uñas mk.jpeg" alt="uñas 1" height="310pxpx" />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Curso de Uñas</strong></h5>
+            <p class="card-text">
+              Te damos la bienvenida a nuestro apasionante curso de uñas,
+              diseñado para aquell@s que desean sumergirse en el emocionante
+              mundo de la manicura y la decoración de uñas.
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="img/maquillaje.jpeg" alt="uñas 2" width="315pxpx" />
+          <div class="card-body">
+            <h5 class="card-title">
+              <strong>Curso de Maquillaje Profesional</strong>
+            </h5>
+            <p class="card-text">
+              ¡Bienvenido al emocionante mundo del maquillaje! donde la
+              creatividad se encuentra con la expresión personal. Este curso
+              está diseñado para llevar a los participantes a través de un viaje
+              completo, desde los conceptos básicos hasta las técnicas
+              avanzadas.
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="img/peinado.jpeg" alt="uñas 3" width="380pxpx" />
+          <div class="card-body">
+            <h5 class="card-title">
+              <strong>Curso de Peinado Profesional</strong>
+            </h5>
+            <p class="card-text">
+              ¡Bienvenido al Curso de Peinado, donde la creatividad se fusiona
+              con la destreza técnica para dar vida a impresionantes obras de
+              arte capilares! Este programa está diseñado para aquellos
+              apasionados por el mundo del estilismo y la belleza.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <h2 style="text-align: center">TUS CONSULTAS</h2>
+    <p style="text-align: center;">
+      Para todas las consultas por favor llena el formulario y con gusto nos
+      contactaremos contigo lo más pronto posible.
+    </p>
+    <div style="display: flex; justify-content: center; border: solid 5px">
+      <form action="#">
+        <br />
+        <input
+          type="text"
+          id="id-Nombre"
+          name="Nombre*"
+          placeholder="Nombre*"
+        />
+        <br /><br />
+        <br />
+        <input
+          type="text"
+          id="id-NumC"
+          name="Numero Contacto"
+          placeholder="Numero de Contacto*"
+        />
+        <br /><br />
+        <br />
+        <input type="email" id="id-email" name="Email" placeholder="Email*" />
+        <br /><br />
+        <br />
+        <input
+          type="asunto"
+          id="id-asunto"
+          name="asunto"
+          placeholder="Asunto*"
+        />
+        <br /><br />
+        <br />
+        <textarea name="comentarios" id="id-comentario" cols="40" rows="10">
+Mensaje
+        </textarea>
+        <br />
+        <input type="submit" value="Enviar" />
+        <br />
+        <input type="reset" value="Actualizar   " />
+      </form>
+    </div>
+    <div id="footer">
+      <footer>
+          <div class="img-2">
+              <img src="img/Makeup Sale.png" alt="" width="150px" height="100px" > 
+          </div>
+
+      </footer>  
+      <footer>
+          <div class="a">
+              <h4> <strong>UBICACION</strong></h4>
+              <p>
+               Av. Marical Sucre Calle Quitus y Cacha
+               
+              </p>
+              <P>
+                Quito, Ecuador
+              </P>
+              <h4><strong>TELEFONOS</strong></h4>
+              <p>
+                0963813460
+              </p>
+          </div>
+      </footer>
+  </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
